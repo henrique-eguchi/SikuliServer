@@ -38,4 +38,5 @@ mvn install:install-file -Dfile=C:\SikuliServer\target\sikulirestapi-1.0.jar -Dp
 
 ### Notes
 1 - After building this application you'll need to perform the merge between the package that contains the Mac dylib's from SikuliX official project (located at new\sikulixlibs\mac\libs64\) and the generated sikulirestapi.jar so that this project work properly in MacOS platform.
+
 2 - To build this project you'll need a x64 version of JDK (preferably version 8)
