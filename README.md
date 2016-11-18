@@ -19,6 +19,12 @@ At command-line/terminal, move to the path that contain the sikulirestapi.jar an
 java -jar sikulirestapi-1.0.jar 9000
 ```
 
+If the station has more than one network interfaces, you can start the service at your preferably one. To do this, simply pass as a paramenter before port. Example: 
+
+```bash
+java -jar sikulirestapi-1.0.jar 200.160.13.232 9000
+```
+
 Note: You can find the sikulirestapi-1.0.jar at /new/ folder of the project.
 
 
