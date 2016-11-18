@@ -9,6 +9,7 @@ To resolve the dependencies through Maven:
 
 ```bash
 mvn install:install-file -Dfile=C:\SikuliServer\target\sikulirestapi-1.0.jar -DpomFile=C:\SikuliServer\target\com.googlecode.addjars.mojo.AddJarsMojo\pom.xml
+```
 
 and
 
